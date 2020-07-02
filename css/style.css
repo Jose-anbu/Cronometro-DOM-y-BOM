@@ -12,16 +12,20 @@
     border-style: ridge;
     border-width: 4px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 11px;
+    font-size: 10px;
+}
+
+.hora {
+    text-transform: uppercase;
 }
 
 #cronometro {
-    font-size: 21px;
+    font-size: 20px;
 }
 
-/* hr{
-    margin-top: 1px;
-} */
+#cronometroCentesimas, #puntosCentesimas{
+    font-size: 9px;
+}
 
 /* BOTONES */
 .btn {
@@ -38,3 +42,4 @@
 .fab:hover {
     color: rgb(167, 167, 167);
 }
+

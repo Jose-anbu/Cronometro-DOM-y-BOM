@@ -28,48 +28,51 @@
 
             <!-- DISPLAY -->
             <section id="display" class="px-3 pt-3 rounded">
-                <div class="d-flex justify-content-around" id="hora">
-                    <p>30</p>
-                    <p>Thu</p>
-                    <p>2020</p>
+                <div class="d-flex justify-content-around">
+                    <p id="diaSemana"></p>
+                    <p id="mes"></p>
+                    <p id="dia"></p>
+                    <p id="anio"></p>
                 </div>
-                <div class="d-flex justify-content-around mb-2">
-                    <p>02</p>
+                <div class="d-flex justify-content-around mb-2 hora">
+                    <p id="horas"></p>
                     <p>:</p>
-                    <p>51</p>
+                    <p id="minutos"></p>
                     <p>:</p>
-                    <p>40</p>
-                    <p>AM</p>
+                    <p id="segundos"></p>
+                    <p id="amPm">AM</p>
                 </div>
-                <div class="d-flex justify-content-around" id="cronometro">
-                    <p>02</p>
+                <div class="d-flex justify-content-around align-items-center" id="cronometro">
+                    <p id="cronometroHoras"></p>
                     <p>:</p>
-                    <p>51</p>
+                    <p id="cronometroMinutos"></p>
                     <p>:</p>
-                    <p>40</p>
+                    <p id="cronometroSegundos"></p>
+                    <p id="puntosCentesimas">:</p>
+                    <p id="cronometroCentesimas"></p>
                 </div>
             </section>
 
             <!-- BOTONES -->
             <section class="d-flex justify-content-around py-3 text-center">
-                <button class="btn btn-info">
+                <button class="btn btn-info" onclick="start()">
                     <i class="fas fa-play"></i>
                     <small><span class="text-light">Start</span></small>
                 </button>
-                <button class="btn btn-warning ">
+                <button class="btn btn-warning" onclick="pause()">
                     <i class="fas fa-pause text-light"></i>
                     <small><span class="text-light">Pause</span></small>
                 </button>
-                <button class="btn btn-danger ">
-                    <i class="fas fa-power-off"></i>
+                <button class="btn btn-danger" onclick="stop()">
+                    <i class="fas fa-stop"></i>
                     <small><span class="text-light">Stop</span></small>
                 </button>
             </section>
 
             <!-- REDES -->
             <section class="text-center text-light">
-                <a><i class="fab fa-linkedin mx-2"></i></a>
-                <a><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/jos%C3%A9-antonio-burgos-66a8001a9/" target="_blank"><i class="fab fa-linkedin mx-2"></i></a>
+                <a href="https://github.com/Jose-anbu/Jose-anbu.github.io" target="_blank"><i class="fab fa-github-square"></i></a>
             </section>
         </section>
     </main>
