@@ -132,7 +132,7 @@ function start() {
 
 // PAUSA
 function pause() {
-    if(centesimasVariables == 0 && segundosVariables == 0 && minutosVariables == 0 && horasVariables == 0){
+    if (centesimasVariables == 0 && segundosVariables == 0 && minutosVariables == 0 && horasVariables == 0) {
         pressPause = false;
     } else if (pressPause == false) {
         window.clearInterval(repeticion);

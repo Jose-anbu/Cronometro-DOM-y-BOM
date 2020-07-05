@@ -43,3 +43,36 @@
     color: rgb(167, 167, 167);
 }
 
+/* MEDIA QUERIES */
+/* DISPOSITIVOS GRANDES */
+@media all and (min-width: 992px){
+    #dimensiones {
+            width: 400px;
+            height: 350px;
+            border-style: ridge;
+            border-width: 7px;
+        }
+        
+    /* DISPLAY */
+    #display {
+        border-style: ridge;
+        border-width: 7px;
+        font-size: 11px;
+    }
+        
+    #cronometro {
+        font-size: 30px;
+    }
+        
+    #cronometroCentesimas, #puntosCentesimas{
+        font-size: 20px;
+    }
+      
+    /* BOTONES */
+    .btn {
+        font-size: 20px;
+        width: 80px;
+    }
+           
+}
+
